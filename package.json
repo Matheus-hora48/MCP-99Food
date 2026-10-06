@@ -1,0 +1,30 @@
+{
+  "name": "mcp-99food",
+  "version": "0.1.0",
+  "description": "Servidor MCP com a documentação da API Open Platform da 99Food (texto e imagens)",
+  "type": "module",
+  "bin": {
+    "mcp-99food": "dist/index.js"
+  },
+  "scripts": {
+    "crawl": "node scripts/crawl-docs.mjs",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "playwright-core": "^1.63.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

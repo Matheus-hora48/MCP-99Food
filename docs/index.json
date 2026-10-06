@@ -1,0 +1,3336 @@
+{
+  "source": "https://developer-food.99app.com/pt-BR/openapi",
+  "lang": "pt-BR",
+  "crawledAt": "2026-10-06T13:42:50.150Z",
+  "tree": {
+    "left_list": [
+      {
+        "id": 1873,
+        "name": "Common",
+        "title": "Common",
+        "content": "",
+        "is_leaf": 0,
+        "children": [
+          {
+            "id": 1875,
+            "name": "Introduction",
+            "title": "Introduction",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 1877,
+                "name": "Introduction",
+                "title": "Introduction",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1879,
+                "name": "Tools Introduction",
+                "title": "Tools Introduction",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 1881,
+            "name": "Integration Guide",
+            "title": "Integration Guide",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 1883,
+                "name": "Basic Process Overview",
+                "title": "Basic Process Overview",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1885,
+                "name": "Testing The Integration",
+                "title": "Testing The Integration",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1887,
+                "name": "API Reference(Recommended)",
+                "title": "API Reference(Recommended)",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1889,
+                "name": "Before Coding",
+                "title": "Before Coding",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1891,
+                "name": "Before Going Live",
+                "title": "Before Going Live",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 1893,
+            "name": "FAQ",
+            "title": "FAQ",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 1895,
+                "name": "Authorization Testing",
+                "title": "Authorization Testing",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1897,
+                "name": "Stores",
+                "title": "Stores",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1899,
+                "name": "Orders",
+                "title": "Orders",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 1901,
+                "name": "Menus",
+                "title": "Menus",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 1903,
+            "name": "Other",
+            "title": "Other",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 1905,
+                "name": "Glossary",
+                "title": "Glossary",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1907,
+        "name": "Food",
+        "title": "Food",
+        "content": "",
+        "is_leaf": 0,
+        "children": [
+          {
+            "id": 1909,
+            "name": "99Food Protocol (Recommended)",
+            "title": "99Food Protocol (Recommended)",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 1911,
+                "name": "API Guide",
+                "title": "API Guide",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 1913,
+                    "name": "Authorization Module",
+                    "title": "Authorization Module",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1915,
+                    "name": "Store Module",
+                    "title": "Store Module",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1917,
+                    "name": "Menu Module",
+                    "title": "Menu Module",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1919,
+                    "name": "Orders Module",
+                    "title": "Orders Module",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1921,
+                    "name": "Webhooks",
+                    "title": "Webhooks",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1923,
+                    "name": "API Rate Limit",
+                    "title": "API Rate Limit",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1925,
+                    "name": "Authentication & Signature Mechanism",
+                    "title": "Authentication & Signature Mechanism",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 1927,
+                "name": "Authorization API",
+                "title": "Authorization API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 1929,
+                    "name": "Get Authtoken",
+                    "title": "Get Authtoken",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1931,
+                    "name": "Refresh Authtoken",
+                    "title": "Refresh Authtoken",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 1933,
+                "name": "Store API",
+                "title": "Store API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 1935,
+                    "name": "Get Authorization Web Page",
+                    "title": "Get Authorization Web Page",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1937,
+                    "name": "Bind Store",
+                    "title": "Bind Store",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1939,
+                    "name": "Unbind Store",
+                    "title": "Unbind Store",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1941,
+                    "name": "Set Store Confirmation Method",
+                    "title": "Set Store Confirmation Method",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1943,
+                    "name": "Get Store Details",
+                    "title": "Get Store Details",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1945,
+                    "name": "Update Store Info",
+                    "title": "Update Store Info",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1947,
+                    "name": "Get Store Categories",
+                    "title": "Get Store Categories",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1949,
+                    "name": "Set Store Status",
+                    "title": "Set Store Status",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1951,
+                    "name": "Set Cancellation Refund",
+                    "title": "Set Cancellation Refund",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1953,
+                    "name": "List Bind Stores",
+                    "title": "List Bind Stores",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1955,
+                    "name": "List Authorized Stores",
+                    "title": "List Authorized Stores",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1957,
+                    "name": "Store Webhooks",
+                    "title": "Store Webhooks",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 1959,
+                "name": "Menu API",
+                "title": "Menu API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 1961,
+                    "name": "Get Store Menu Details",
+                    "title": "Get Store Menu Details",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1963,
+                    "name": "Upload Store Menu Details",
+                    "title": "Upload Store Menu Details",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1965,
+                    "name": "Get Menu Upload Task Info",
+                    "title": "Get Menu Upload Task Info",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1967,
+                    "name": "Update One Item",
+                    "title": "Update One Item",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1969,
+                    "name": "Update Item Status",
+                    "title": "Update Item Status",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1971,
+                    "name": "Update Modifier Group",
+                    "title": "Update Modifier Group",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1973,
+                    "name": "Upload Image",
+                    "title": "Upload Image",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1975,
+                    "name": "Get Image Url List",
+                    "title": "Get Image Url List",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1977,
+                    "name": "Menu Webhooks",
+                    "title": "Menu Webhooks",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 1979,
+                "name": "Order API",
+                "title": "Order API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 1981,
+                    "name": "Order Webhooks (Recommended)",
+                    "title": "Order Webhooks (Recommended)",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1983,
+                    "name": "Get Order Details",
+                    "title": "Get Order Details",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1985,
+                    "name": "Confirm Order",
+                    "title": "Confirm Order",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1987,
+                    "name": "Order Ready",
+                    "title": "Order Ready",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1989,
+                    "name": "Order Delivered",
+                    "title": "Order Delivered",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1991,
+                    "name": "Cancel Order",
+                    "title": "Cancel Order",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1993,
+                    "name": "Promotion",
+                    "title": "Promotion",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1995,
+                    "name": "Handle Cancellation Requests",
+                    "title": "Handle Cancellation Requests",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 1997,
+                    "name": "Handle Refund Requests",
+                    "title": "Handle Refund Requests",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2001,
+                    "name": "Confirm Cash Payment",
+                    "title": "Confirm Cash Payment",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2215,
+                    "name": "Confirm Order Pickup",
+                    "title": "Confirm Order Pickup",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2003,
+                "name": "Logistics API",
+                "title": "Logistics API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2005,
+                    "name": "Order Dispatched",
+                    "title": "Order Dispatched",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2007,
+                    "name": "Order Delivered",
+                    "title": "Order Delivered",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2009,
+                    "name": "Update Courier Info",
+                    "title": "Update Courier Info",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2011,
+                    "name": "Update Courier Track",
+                    "title": "Update Courier Track",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2013,
+                    "name": "Add Delivery Area",
+                    "title": "Add Delivery Area",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2015,
+                    "name": "Update Delivery Area",
+                    "title": "Update Delivery Area",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2017,
+                    "name": "Delete Delivery Area",
+                    "title": "Delete Delivery Area",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2019,
+                    "name": "Get Delivery Area",
+                    "title": "Get Delivery Area",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2021,
+                    "name": "Logistics Webhooks",
+                    "title": "Logistics Webhooks",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2209,
+                    "name": "Verify Delivery Code",
+                    "title": "Verify Delivery Code",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2023,
+                "name": "Financial API",
+                "title": "Financial API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2025,
+                    "name": "Get Financial API Authtoken",
+                    "title": "Get Financial API Authtoken",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2027,
+                    "name": "Get Bill Data",
+                    "title": "Get Bill Data",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2029,
+                    "name": "Get Settlements Data",
+                    "title": "Get Settlements Data",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2031,
+            "name": "Open Delivery Protocol",
+            "title": "Open Delivery Protocol",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2211,
+                "name": "Introduction",
+                "title": "Introduction",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2213,
+                    "name": "Open Delivery Introduction",
+                    "title": "Open Delivery Introduction",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2033,
+                "name": "Authorization API",
+                "title": "Authorization API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2035,
+                    "name": "Get Access Token",
+                    "title": "Get Access Token",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2037,
+                "name": "Store & Menu API",
+                "title": "Store & Menu API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2039,
+                    "name": "Merchant Update",
+                    "title": "Merchant Update",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2041,
+                    "name": "Merchant Status",
+                    "title": "Merchant Status",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2043,
+                    "name": "Merchant Onboarding",
+                    "title": "Merchant Onboarding",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2045,
+                "name": "Order API",
+                "title": "Order API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2047,
+                    "name": "New Order Event Notification",
+                    "title": "New Order Event Notification",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2049,
+                    "name": "Order Polling",
+                    "title": "Order Polling",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2051,
+                    "name": "Acknowledgment",
+                    "title": "Acknowledgment",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2053,
+                    "name": "Get Order Details",
+                    "title": "Get Order Details",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2055,
+                    "name": "Order Confirm",
+                    "title": "Order Confirm",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2057,
+                    "name": "Ready For Pickup",
+                    "title": "Ready For Pickup",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2217,
+                    "name": "Picked Up",
+                    "title": "Picked Up",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2059,
+                    "name": "Dispatch",
+                    "title": "Dispatch",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2061,
+                    "name": "Delivered",
+                    "title": "Delivered",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2063,
+                    "name": "Request Order Cancellation",
+                    "title": "Request Order Cancellation",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2065,
+                    "name": "Accept Order Cancellation",
+                    "title": "Accept Order Cancellation",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2067,
+                    "name": "Deny Order Cancellation",
+                    "title": "Deny Order Cancellation",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  },
+                  {
+                    "id": 2069,
+                    "name": "Validate Code",
+                    "title": "Validate Code",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2071,
+                "name": "Logistics API",
+                "title": "Logistics API",
+                "content": "",
+                "is_leaf": 0,
+                "children": [
+                  {
+                    "id": 2073,
+                    "name": "Tracking Event Webhook",
+                    "title": "Tracking Event Webhook",
+                    "content": "",
+                    "is_leaf": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2075,
+            "name": "Changelog",
+            "title": "Changelog",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2077,
+                "name": "Changelog",
+                "title": "Changelog",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2079,
+        "name": "Grocery",
+        "title": "Grocery",
+        "content": "",
+        "is_leaf": 0,
+        "children": [
+          {
+            "id": 2081,
+            "name": "API Guide",
+            "title": "API Guide",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2083,
+                "name": "Authorization Module",
+                "title": "Authorization Module",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2085,
+                "name": "Store Module",
+                "title": "Store Module",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2087,
+                "name": "Orders Module",
+                "title": "Orders Module",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2089,
+                "name": "Webhooks",
+                "title": "Webhooks",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2091,
+                "name": "API Rate Limit",
+                "title": "API Rate Limit",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2093,
+                "name": "Authentication & Signature Mechanism",
+                "title": "Authentication & Signature Mechanism",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2095,
+            "name": "Authorization API",
+            "title": "Authorization API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2097,
+                "name": "Get Authtoken",
+                "title": "Get Authtoken",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2099,
+                "name": "Refresh Authtoken",
+                "title": "Refresh Authtoken",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2101,
+            "name": "Store API",
+            "title": "Store API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2103,
+                "name": "Get Authorization Webpage",
+                "title": "Get Authorization Webpage",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2105,
+                "name": "Bind Store",
+                "title": "Bind Store",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2107,
+                "name": "Unbind Store",
+                "title": "Unbind Store",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2109,
+                "name": "Set Store Confirmation Method",
+                "title": "Set Store Confirmation Method",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2111,
+                "name": "Get Store Details",
+                "title": "Get Store Details",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2113,
+                "name": "Update Store Info",
+                "title": "Update Store Info",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2115,
+                "name": "Set Store Status",
+                "title": "Set Store Status",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2119,
+                "name": "List Bind Stores",
+                "title": "List Bind Stores",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2121,
+                "name": "List Authorized Stores",
+                "title": "List Authorized Stores",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2123,
+                "name": "Store Webhooks",
+                "title": "Store Webhooks",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2125,
+            "name": "Menu API",
+            "title": "Menu API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2127,
+                "name": "Upload Grocery Menu Details",
+                "title": "Upload Grocery Menu Details",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2129,
+                "name": "Groceries SFTP",
+                "title": "Groceries SFTP",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2131,
+                "name": "Batch Add Update Grocery Items",
+                "title": "Batch Add Update Grocery Items",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2219,
+                "name": "Update Item API",
+                "title": "Update Item API",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2221,
+                "name": "Batch Add Items API",
+                "title": "Batch Add Items API",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2133,
+                "name": "Delete Multiple Items",
+                "title": "Delete Multiple Items",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2135,
+                "name": "Batch Delete Multiple Categories",
+                "title": "Batch Delete Multiple Categories",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2137,
+                "name": "Get Full Menu Detail",
+                "title": "Get Full Menu Detail",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2139,
+                "name": "Get Task Info",
+                "title": "Get Task Info",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2141,
+                "name": "Get Grocery Menu Upload Task Info",
+                "title": "Get Grocery Menu Upload Task Info",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2143,
+                "name": "Grocery Menu Webhooks",
+                "title": "Grocery Menu Webhooks",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2145,
+                "name": "Stock API",
+                "title": "Stock API",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2147,
+                "name": "Upload Grocery Promo Activity",
+                "title": "Upload Grocery Promo Activity",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2149,
+            "name": "Order API",
+            "title": "Order API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2151,
+                "name": "Order Polling",
+                "title": "Order Polling",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2153,
+                "name": "Acknowledgment",
+                "title": "Acknowledgment",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2155,
+                "name": "Order Webhooks (Recommended)",
+                "title": "Order Webhooks (Recommended)",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2157,
+                "name": "Get Order Details",
+                "title": "Get Order Details",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2159,
+                "name": "Confirm Order",
+                "title": "Confirm Order",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2161,
+                "name": "Order Ready",
+                "title": "Order Ready",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2163,
+                "name": "Order Delivered",
+                "title": "Order Delivered",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2165,
+                "name": "Cancel Order",
+                "title": "Cancel Order",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2167,
+                "name": "Promotion",
+                "title": "Promotion",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2169,
+                "name": "Handle Cancellation Requests",
+                "title": "Handle Cancellation Requests",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2171,
+                "name": "Handle Refund Requests",
+                "title": "Handle Refund Requests",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2173,
+                "name": "Order Verification",
+                "title": "Order Verification",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2175,
+                "name": "Confirm Cash Payment",
+                "title": "Confirm Cash Payment",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2177,
+                "name": "Order Partial Cancel",
+                "title": "Order Partial Cancel",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2179,
+                "name": "Adjust Order Items",
+                "title": "Adjust Order Items",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2181,
+            "name": "Logistics API",
+            "title": "Logistics API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2183,
+                "name": "Order Dispatched",
+                "title": "Order Dispatched",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2185,
+                "name": "Order Delivered",
+                "title": "Order Delivered",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2187,
+                "name": "Update Courier Info",
+                "title": "Update Courier Info",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2189,
+                "name": "Update Courier Track",
+                "title": "Update Courier Track",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2191,
+                "name": "Add Delivery Area",
+                "title": "Add Delivery Area",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2193,
+                "name": "Update Delivery Area",
+                "title": "Update Delivery Area",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2195,
+                "name": "Delete Delivery Area",
+                "title": "Delete Delivery Area",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2197,
+                "name": "Get Delivery Area",
+                "title": "Get Delivery Area",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2199,
+                "name": "Logistics Webhooks",
+                "title": "Logistics Webhooks",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2201,
+            "name": "Financial API",
+            "title": "Financial API",
+            "content": "",
+            "is_leaf": 0,
+            "children": [
+              {
+                "id": 2203,
+                "name": "Get Financial API Authtoken",
+                "title": "Get Financial API Authtoken",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2205,
+                "name": "Get Bill Data",
+                "title": "Get Bill Data",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              },
+              {
+                "id": 2207,
+                "name": "Get Settlements Data",
+                "title": "Get Settlements Data",
+                "content": "",
+                "is_leaf": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "root_id": 1871
+  },
+  "pages": [
+    {
+      "id": 1877,
+      "title": "Introduction",
+      "breadcrumb": [
+        "Common",
+        "Introduction",
+        "Introduction"
+      ],
+      "file": "01-common/01-introduction/01-introduction.md",
+      "images": [
+        "69842228416d.png"
+      ],
+      "bytes": 2241
+    },
+    {
+      "id": 1879,
+      "title": "Tools Introduction",
+      "breadcrumb": [
+        "Common",
+        "Introduction",
+        "Tools Introduction"
+      ],
+      "file": "01-common/01-introduction/02-tools-introduction.md",
+      "images": [
+        "9b95662a7f99.webp",
+        "5d54af08984b.webp",
+        "694867ab628d.webp",
+        "154ab71cd3b5.webp",
+        "a1c79439b8bc.webp",
+        "9263b072d918.webp",
+        "01416f0de9e7.webp",
+        "29e06dab05e3.webp",
+        "a22c386d3104.webp",
+        "e41f3bf6d8a3.webp",
+        "d360f30b419b.webp",
+        "778d1fcb3e01.webp",
+        "156731e4cb99.webp",
+        "bba062a93fc9.webp",
+        "04847f6fbdb5.webp"
+      ],
+      "bytes": 12617
+    },
+    {
+      "id": 1883,
+      "title": "Basic Process Overview",
+      "breadcrumb": [
+        "Common",
+        "Integration Guide",
+        "Basic Process Overview"
+      ],
+      "file": "01-common/02-integration-guide/01-basic-process-overview.md",
+      "images": [
+        "0f029b41aede.webp",
+        "ca970ef1eb4d.webp",
+        "75ce3ff69131.webp",
+        "42b5da18750a.webp",
+        "9375ac158dc2.webp",
+        "e0809dad48b3.webp",
+        "433f963dbefd.webp",
+        "db0e905bcbf2.webp",
+        "aeba9f975fa7.webp",
+        "69eb536c793f.webp"
+      ],
+      "bytes": 8004
+    },
+    {
+      "id": 1885,
+      "title": "Testing The Integration",
+      "breadcrumb": [
+        "Common",
+        "Integration Guide",
+        "Testing The Integration"
+      ],
+      "file": "01-common/02-integration-guide/02-testing-the-integration.md",
+      "images": [
+        "cea51ddcf8a2.webp"
+      ],
+      "bytes": 1535
+    },
+    {
+      "id": 1887,
+      "title": "API Reference(Recommended)",
+      "breadcrumb": [
+        "Common",
+        "Integration Guide",
+        "API Reference(Recommended)"
+      ],
+      "file": "01-common/02-integration-guide/03-api-reference-recommended.md",
+      "images": [],
+      "bytes": 359
+    },
+    {
+      "id": 1889,
+      "title": "Before Coding",
+      "breadcrumb": [
+        "Common",
+        "Integration Guide",
+        "Before Coding"
+      ],
+      "file": "01-common/02-integration-guide/04-before-coding.md",
+      "images": [],
+      "bytes": 1173
+    },
+    {
+      "id": 1891,
+      "title": "Before Going Live",
+      "breadcrumb": [
+        "Common",
+        "Integration Guide",
+        "Before Going Live"
+      ],
+      "file": "01-common/02-integration-guide/05-before-going-live.md",
+      "images": [],
+      "bytes": 2256
+    },
+    {
+      "id": 1895,
+      "title": "Authorization Testing",
+      "breadcrumb": [
+        "Common",
+        "FAQ",
+        "Authorization Testing"
+      ],
+      "file": "01-common/03-faq/01-authorization-testing.md",
+      "images": [],
+      "bytes": 2631
+    },
+    {
+      "id": 1897,
+      "title": "Stores",
+      "breadcrumb": [
+        "Common",
+        "FAQ",
+        "Stores"
+      ],
+      "file": "01-common/03-faq/02-stores.md",
+      "images": [],
+      "bytes": 915
+    },
+    {
+      "id": 1899,
+      "title": "Orders",
+      "breadcrumb": [
+        "Common",
+        "FAQ",
+        "Orders"
+      ],
+      "file": "01-common/03-faq/03-orders.md",
+      "images": [],
+      "bytes": 4111
+    },
+    {
+      "id": 1901,
+      "title": "Menus",
+      "breadcrumb": [
+        "Common",
+        "FAQ",
+        "Menus"
+      ],
+      "file": "01-common/03-faq/04-menus.md",
+      "images": [],
+      "bytes": 1480
+    },
+    {
+      "id": 1905,
+      "title": "Glossary",
+      "breadcrumb": [
+        "Common",
+        "Other",
+        "Glossary"
+      ],
+      "file": "01-common/04-other/01-glossary.md",
+      "images": [],
+      "bytes": 2025
+    },
+    {
+      "id": 1913,
+      "title": "Authorization Module",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Authorization Module"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/01-authorization-module.md",
+      "images": [
+        "0dffc9d72c28.png"
+      ],
+      "bytes": 1366
+    },
+    {
+      "id": 1915,
+      "title": "Store Module",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Store Module"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/02-store-module.md",
+      "images": [
+        "ab8d8a23e30d.png"
+      ],
+      "bytes": 3110
+    },
+    {
+      "id": 1917,
+      "title": "Menu Module",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Menu Module"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/03-menu-module.md",
+      "images": [
+        "9ec485419e43.jpeg"
+      ],
+      "bytes": 2707
+    },
+    {
+      "id": 1919,
+      "title": "Orders Module",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Orders Module"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/04-orders-module.md",
+      "images": [
+        "b053b8ea7ea8.png",
+        "6ed438154c35.png",
+        "279f0ff1d405.png",
+        "8f60350bf0fc.png",
+        "4cf393fa93cc.png"
+      ],
+      "bytes": 3225
+    },
+    {
+      "id": 1921,
+      "title": "Webhooks",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Webhooks"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/05-webhooks.md",
+      "images": [],
+      "bytes": 2347
+    },
+    {
+      "id": 1923,
+      "title": "API Rate Limit",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "API Rate Limit"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/06-api-rate-limit.md",
+      "images": [],
+      "bytes": 3105
+    },
+    {
+      "id": 1925,
+      "title": "Authentication & Signature Mechanism",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "API Guide",
+        "Authentication & Signature Mechanism"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/01-api-guide/07-authentication-signature-mechanism.md",
+      "images": [],
+      "bytes": 5809
+    },
+    {
+      "id": 1929,
+      "title": "Get Authtoken",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Authorization API",
+        "Get Authtoken"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/02-authorization-api/01-get-authtoken.md",
+      "images": [
+        "0dffc9d72c28.png"
+      ],
+      "bytes": 2407
+    },
+    {
+      "id": 1931,
+      "title": "Refresh Authtoken",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Authorization API",
+        "Refresh Authtoken"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/02-authorization-api/02-refresh-authtoken.md",
+      "images": [],
+      "bytes": 1654
+    },
+    {
+      "id": 1935,
+      "title": "Get Authorization Web Page",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Get Authorization Web Page"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/01-get-authorization-web-page.md",
+      "images": [],
+      "bytes": 4133
+    },
+    {
+      "id": 1937,
+      "title": "Bind Store",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Bind Store"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/02-bind-store.md",
+      "images": [],
+      "bytes": 6219
+    },
+    {
+      "id": 1939,
+      "title": "Unbind Store",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Unbind Store"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/03-unbind-store.md",
+      "images": [],
+      "bytes": 1178
+    },
+    {
+      "id": 1941,
+      "title": "Set Store Confirmation Method",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Set Store Confirmation Method"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/04-set-store-confirmation-method.md",
+      "images": [],
+      "bytes": 1942
+    },
+    {
+      "id": 1943,
+      "title": "Get Store Details",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Get Store Details"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/05-get-store-details.md",
+      "images": [],
+      "bytes": 6834
+    },
+    {
+      "id": 1945,
+      "title": "Update Store Info",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Update Store Info"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/06-update-store-info.md",
+      "images": [],
+      "bytes": 8484
+    },
+    {
+      "id": 1947,
+      "title": "Get Store Categories",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Get Store Categories"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/07-get-store-categories.md",
+      "images": [],
+      "bytes": 1672
+    },
+    {
+      "id": 1949,
+      "title": "Set Store Status",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Set Store Status"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/08-set-store-status.md",
+      "images": [],
+      "bytes": 9861
+    },
+    {
+      "id": 1951,
+      "title": "Set Cancellation Refund",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Set Cancellation Refund"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/09-set-cancellation-refund.md",
+      "images": [],
+      "bytes": 2194
+    },
+    {
+      "id": 1953,
+      "title": "List Bind Stores",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "List Bind Stores"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/10-list-bind-stores.md",
+      "images": [],
+      "bytes": 5732
+    },
+    {
+      "id": 1955,
+      "title": "List Authorized Stores",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "List Authorized Stores"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/11-list-authorized-stores.md",
+      "images": [],
+      "bytes": 5270
+    },
+    {
+      "id": 1957,
+      "title": "Store Webhooks",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Store API",
+        "Store Webhooks"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/03-store-api/12-store-webhooks.md",
+      "images": [],
+      "bytes": 3544
+    },
+    {
+      "id": 1961,
+      "title": "Get Store Menu Details",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Get Store Menu Details"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/01-get-store-menu-details.md",
+      "images": [],
+      "bytes": 24288
+    },
+    {
+      "id": 1963,
+      "title": "Upload Store Menu Details",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Upload Store Menu Details"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/02-upload-store-menu-details.md",
+      "images": [],
+      "bytes": 42910
+    },
+    {
+      "id": 1965,
+      "title": "Get Menu Upload Task Info",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Get Menu Upload Task Info"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/03-get-menu-upload-task-info.md",
+      "images": [],
+      "bytes": 16704
+    },
+    {
+      "id": 1967,
+      "title": "Update One Item",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Update One Item"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/04-update-one-item.md",
+      "images": [],
+      "bytes": 4065
+    },
+    {
+      "id": 1969,
+      "title": "Update Item Status",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Update Item Status"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/05-update-item-status.md",
+      "images": [],
+      "bytes": 1384
+    },
+    {
+      "id": 1971,
+      "title": "Update Modifier Group",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Update Modifier Group"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/06-update-modifier-group.md",
+      "images": [],
+      "bytes": 2932
+    },
+    {
+      "id": 1973,
+      "title": "Upload Image",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Upload Image"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/07-upload-image.md",
+      "images": [],
+      "bytes": 5273
+    },
+    {
+      "id": 1975,
+      "title": "Get Image Url List",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Get Image Url List"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/08-get-image-url-list.md",
+      "images": [],
+      "bytes": 3805
+    },
+    {
+      "id": 1977,
+      "title": "Menu Webhooks",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Menu API",
+        "Menu Webhooks"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/04-menu-api/09-menu-webhooks.md",
+      "images": [],
+      "bytes": 5064
+    },
+    {
+      "id": 1981,
+      "title": "Order Webhooks (Recommended)",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Order Webhooks (Recommended)"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/01-order-webhooks-recommended.md",
+      "images": [],
+      "bytes": 16291
+    },
+    {
+      "id": 1983,
+      "title": "Get Order Details",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Get Order Details"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/02-get-order-details.md",
+      "images": [],
+      "bytes": 41698
+    },
+    {
+      "id": 1985,
+      "title": "Confirm Order",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Confirm Order"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/03-confirm-order.md",
+      "images": [],
+      "bytes": 1917
+    },
+    {
+      "id": 1987,
+      "title": "Order Ready",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Order Ready"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/04-order-ready.md",
+      "images": [],
+      "bytes": 962
+    },
+    {
+      "id": 1989,
+      "title": "Order Delivered",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Order Delivered"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/05-order-delivered.md",
+      "images": [],
+      "bytes": 1139
+    },
+    {
+      "id": 1991,
+      "title": "Cancel Order",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Cancel Order"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/06-cancel-order.md",
+      "images": [],
+      "bytes": 2275
+    },
+    {
+      "id": 1993,
+      "title": "Promotion",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Promotion"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/07-promotion.md",
+      "images": [],
+      "bytes": 15785
+    },
+    {
+      "id": 1995,
+      "title": "Handle Cancellation Requests",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Handle Cancellation Requests"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/08-handle-cancellation-requests.md",
+      "images": [],
+      "bytes": 1713
+    },
+    {
+      "id": 1997,
+      "title": "Handle Refund Requests",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Handle Refund Requests"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/09-handle-refund-requests.md",
+      "images": [],
+      "bytes": 2003
+    },
+    {
+      "id": 2001,
+      "title": "Confirm Cash Payment",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Confirm Cash Payment"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/10-confirm-cash-payment.md",
+      "images": [],
+      "bytes": 3083
+    },
+    {
+      "id": 2215,
+      "title": "Confirm Order Pickup",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Order API",
+        "Confirm Order Pickup"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/05-order-api/11-confirm-order-pickup.md",
+      "images": [],
+      "bytes": 1679
+    },
+    {
+      "id": 2005,
+      "title": "Order Dispatched",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Order Dispatched"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/01-order-dispatched.md",
+      "images": [],
+      "bytes": 2785
+    },
+    {
+      "id": 2007,
+      "title": "Order Delivered",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Order Delivered"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/02-order-delivered.md",
+      "images": [],
+      "bytes": 957
+    },
+    {
+      "id": 2009,
+      "title": "Update Courier Info",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Update Courier Info"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/03-update-courier-info.md",
+      "images": [],
+      "bytes": 2954
+    },
+    {
+      "id": 2011,
+      "title": "Update Courier Track",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Update Courier Track"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/04-update-courier-track.md",
+      "images": [],
+      "bytes": 1958
+    },
+    {
+      "id": 2013,
+      "title": "Add Delivery Area",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Add Delivery Area"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/05-add-delivery-area.md",
+      "images": [],
+      "bytes": 3398
+    },
+    {
+      "id": 2015,
+      "title": "Update Delivery Area",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Update Delivery Area"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/06-update-delivery-area.md",
+      "images": [],
+      "bytes": 3249
+    },
+    {
+      "id": 2017,
+      "title": "Delete Delivery Area",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Delete Delivery Area"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/07-delete-delivery-area.md",
+      "images": [],
+      "bytes": 1293
+    },
+    {
+      "id": 2019,
+      "title": "Get Delivery Area",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Get Delivery Area"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/08-get-delivery-area.md",
+      "images": [],
+      "bytes": 7524
+    },
+    {
+      "id": 2021,
+      "title": "Logistics Webhooks",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Logistics Webhooks"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/09-logistics-webhooks.md",
+      "images": [],
+      "bytes": 1374
+    },
+    {
+      "id": 2209,
+      "title": "Verify Delivery Code",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Logistics API",
+        "Verify Delivery Code"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/06-logistics-api/10-verify-delivery-code.md",
+      "images": [],
+      "bytes": 1829
+    },
+    {
+      "id": 2025,
+      "title": "Get Financial API Authtoken",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Financial API",
+        "Get Financial API Authtoken"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/07-financial-api/01-get-financial-api-authtoken.md",
+      "images": [],
+      "bytes": 1114
+    },
+    {
+      "id": 2027,
+      "title": "Get Bill Data",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Financial API",
+        "Get Bill Data"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/07-financial-api/02-get-bill-data.md",
+      "images": [],
+      "bytes": 21629
+    },
+    {
+      "id": 2029,
+      "title": "Get Settlements Data",
+      "breadcrumb": [
+        "Food",
+        "99Food Protocol (Recommended)",
+        "Financial API",
+        "Get Settlements Data"
+      ],
+      "file": "02-food/01-99food-protocol-recommended/07-financial-api/03-get-settlements-data.md",
+      "images": [],
+      "bytes": 4333
+    },
+    {
+      "id": 2213,
+      "title": "Open Delivery Introduction",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Introduction",
+        "Open Delivery Introduction"
+      ],
+      "file": "02-food/02-open-delivery-protocol/01-introduction/01-open-delivery-introduction.md",
+      "images": [],
+      "bytes": 2850
+    },
+    {
+      "id": 2035,
+      "title": "Get Access Token",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Authorization API",
+        "Get Access Token"
+      ],
+      "file": "02-food/02-open-delivery-protocol/02-authorization-api/01-get-access-token.md",
+      "images": [],
+      "bytes": 2248
+    },
+    {
+      "id": 2039,
+      "title": "Merchant Update",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Store & Menu API",
+        "Merchant Update"
+      ],
+      "file": "02-food/02-open-delivery-protocol/03-store-menu-api/01-merchant-update.md",
+      "images": [],
+      "bytes": 13935
+    },
+    {
+      "id": 2041,
+      "title": "Merchant Status",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Store & Menu API",
+        "Merchant Status"
+      ],
+      "file": "02-food/02-open-delivery-protocol/03-store-menu-api/02-merchant-status.md",
+      "images": [],
+      "bytes": 2153
+    },
+    {
+      "id": 2043,
+      "title": "Merchant Onboarding",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Store & Menu API",
+        "Merchant Onboarding"
+      ],
+      "file": "02-food/02-open-delivery-protocol/03-store-menu-api/03-merchant-onboarding.md",
+      "images": [],
+      "bytes": 2118
+    },
+    {
+      "id": 2047,
+      "title": "New Order Event Notification",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "New Order Event Notification"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/01-new-order-event-notification.md",
+      "images": [],
+      "bytes": 2447
+    },
+    {
+      "id": 2049,
+      "title": "Order Polling",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Order Polling"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/02-order-polling.md",
+      "images": [],
+      "bytes": 2868
+    },
+    {
+      "id": 2051,
+      "title": "Acknowledgment",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Acknowledgment"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/03-acknowledgment.md",
+      "images": [],
+      "bytes": 2199
+    },
+    {
+      "id": 2053,
+      "title": "Get Order Details",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Get Order Details"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/04-get-order-details.md",
+      "images": [],
+      "bytes": 11796
+    },
+    {
+      "id": 2055,
+      "title": "Order Confirm",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Order Confirm"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/05-order-confirm.md",
+      "images": [],
+      "bytes": 2715
+    },
+    {
+      "id": 2057,
+      "title": "Ready For Pickup",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Ready For Pickup"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/06-ready-for-pickup.md",
+      "images": [],
+      "bytes": 1894
+    },
+    {
+      "id": 2217,
+      "title": "Picked Up",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Picked Up"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/07-picked-up.md",
+      "images": [],
+      "bytes": 1832
+    },
+    {
+      "id": 2059,
+      "title": "Dispatch",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Dispatch"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/08-dispatch.md",
+      "images": [],
+      "bytes": 1879
+    },
+    {
+      "id": 2061,
+      "title": "Delivered",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Delivered"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/09-delivered.md",
+      "images": [],
+      "bytes": 1794
+    },
+    {
+      "id": 2063,
+      "title": "Request Order Cancellation",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Request Order Cancellation"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/10-request-order-cancellation.md",
+      "images": [],
+      "bytes": 3256
+    },
+    {
+      "id": 2065,
+      "title": "Accept Order Cancellation",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Accept Order Cancellation"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/11-accept-order-cancellation.md",
+      "images": [],
+      "bytes": 2081
+    },
+    {
+      "id": 2067,
+      "title": "Deny Order Cancellation",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Deny Order Cancellation"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/12-deny-order-cancellation.md",
+      "images": [],
+      "bytes": 2634
+    },
+    {
+      "id": 2069,
+      "title": "Validate Code",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Order API",
+        "Validate Code"
+      ],
+      "file": "02-food/02-open-delivery-protocol/04-order-api/13-validate-code.md",
+      "images": [],
+      "bytes": 1670
+    },
+    {
+      "id": 2073,
+      "title": "Tracking Event Webhook",
+      "breadcrumb": [
+        "Food",
+        "Open Delivery Protocol",
+        "Logistics API",
+        "Tracking Event Webhook"
+      ],
+      "file": "02-food/02-open-delivery-protocol/05-logistics-api/01-tracking-event-webhook.md",
+      "images": [],
+      "bytes": 3133
+    },
+    {
+      "id": 2077,
+      "title": "Changelog",
+      "breadcrumb": [
+        "Food",
+        "Changelog",
+        "Changelog"
+      ],
+      "file": "02-food/03-changelog/01-changelog.md",
+      "images": [],
+      "bytes": 9866
+    },
+    {
+      "id": 2083,
+      "title": "Authorization Module",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "Authorization Module"
+      ],
+      "file": "03-grocery/01-api-guide/01-authorization-module.md",
+      "images": [
+        "0dffc9d72c28.png"
+      ],
+      "bytes": 1363
+    },
+    {
+      "id": 2085,
+      "title": "Store Module",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "Store Module"
+      ],
+      "file": "03-grocery/01-api-guide/02-store-module.md",
+      "images": [
+        "ab8d8a23e30d.png"
+      ],
+      "bytes": 3107
+    },
+    {
+      "id": 2087,
+      "title": "Orders Module",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "Orders Module"
+      ],
+      "file": "03-grocery/01-api-guide/03-orders-module.md",
+      "images": [
+        "b053b8ea7ea8.png",
+        "6ed438154c35.png",
+        "279f0ff1d405.png",
+        "8f60350bf0fc.png",
+        "4cf393fa93cc.png"
+      ],
+      "bytes": 3210
+    },
+    {
+      "id": 2089,
+      "title": "Webhooks",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "Webhooks"
+      ],
+      "file": "03-grocery/01-api-guide/04-webhooks.md",
+      "images": [],
+      "bytes": 2347
+    },
+    {
+      "id": 2091,
+      "title": "API Rate Limit",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "API Rate Limit"
+      ],
+      "file": "03-grocery/01-api-guide/05-api-rate-limit.md",
+      "images": [],
+      "bytes": 2806
+    },
+    {
+      "id": 2093,
+      "title": "Authentication & Signature Mechanism",
+      "breadcrumb": [
+        "Grocery",
+        "API Guide",
+        "Authentication & Signature Mechanism"
+      ],
+      "file": "03-grocery/01-api-guide/06-authentication-signature-mechanism.md",
+      "images": [],
+      "bytes": 5809
+    },
+    {
+      "id": 2097,
+      "title": "Get Authtoken",
+      "breadcrumb": [
+        "Grocery",
+        "Authorization API",
+        "Get Authtoken"
+      ],
+      "file": "03-grocery/02-authorization-api/01-get-authtoken.md",
+      "images": [
+        "0dffc9d72c28.png"
+      ],
+      "bytes": 2404
+    },
+    {
+      "id": 2099,
+      "title": "Refresh Authtoken",
+      "breadcrumb": [
+        "Grocery",
+        "Authorization API",
+        "Refresh Authtoken"
+      ],
+      "file": "03-grocery/02-authorization-api/02-refresh-authtoken.md",
+      "images": [],
+      "bytes": 1892
+    },
+    {
+      "id": 2103,
+      "title": "Get Authorization Webpage",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Get Authorization Webpage"
+      ],
+      "file": "03-grocery/03-store-api/01-get-authorization-webpage.md",
+      "images": [],
+      "bytes": 4392
+    },
+    {
+      "id": 2105,
+      "title": "Bind Store",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Bind Store"
+      ],
+      "file": "03-grocery/03-store-api/02-bind-store.md",
+      "images": [],
+      "bytes": 6776
+    },
+    {
+      "id": 2107,
+      "title": "Unbind Store",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Unbind Store"
+      ],
+      "file": "03-grocery/03-store-api/03-unbind-store.md",
+      "images": [],
+      "bytes": 1517
+    },
+    {
+      "id": 2109,
+      "title": "Set Store Confirmation Method",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Set Store Confirmation Method"
+      ],
+      "file": "03-grocery/03-store-api/04-set-store-confirmation-method.md",
+      "images": [],
+      "bytes": 1942
+    },
+    {
+      "id": 2111,
+      "title": "Get Store Details",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Get Store Details"
+      ],
+      "file": "03-grocery/03-store-api/05-get-store-details.md",
+      "images": [],
+      "bytes": 6834
+    },
+    {
+      "id": 2113,
+      "title": "Update Store Info",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Update Store Info"
+      ],
+      "file": "03-grocery/03-store-api/06-update-store-info.md",
+      "images": [],
+      "bytes": 8484
+    },
+    {
+      "id": 2115,
+      "title": "Set Store Status",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Set Store Status"
+      ],
+      "file": "03-grocery/03-store-api/07-set-store-status.md",
+      "images": [],
+      "bytes": 9013
+    },
+    {
+      "id": 2119,
+      "title": "List Bind Stores",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "List Bind Stores"
+      ],
+      "file": "03-grocery/03-store-api/08-list-bind-stores.md",
+      "images": [],
+      "bytes": 8159
+    },
+    {
+      "id": 2121,
+      "title": "List Authorized Stores",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "List Authorized Stores"
+      ],
+      "file": "03-grocery/03-store-api/09-list-authorized-stores.md",
+      "images": [],
+      "bytes": 5723
+    },
+    {
+      "id": 2123,
+      "title": "Store Webhooks",
+      "breadcrumb": [
+        "Grocery",
+        "Store API",
+        "Store Webhooks"
+      ],
+      "file": "03-grocery/03-store-api/10-store-webhooks.md",
+      "images": [],
+      "bytes": 3544
+    },
+    {
+      "id": 2127,
+      "title": "Upload Grocery Menu Details",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Upload Grocery Menu Details"
+      ],
+      "file": "03-grocery/04-menu-api/01-upload-grocery-menu-details.md",
+      "images": [],
+      "bytes": 15392
+    },
+    {
+      "id": 2129,
+      "title": "Groceries SFTP",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Groceries SFTP"
+      ],
+      "file": "03-grocery/04-menu-api/02-groceries-sftp.md",
+      "images": [],
+      "bytes": 2901
+    },
+    {
+      "id": 2131,
+      "title": "Batch Add Update Grocery Items",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Batch Add Update Grocery Items"
+      ],
+      "file": "03-grocery/04-menu-api/03-batch-add-update-grocery-items.md",
+      "images": [],
+      "bytes": 7856
+    },
+    {
+      "id": 2219,
+      "title": "Update Item API",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Update Item API"
+      ],
+      "file": "03-grocery/04-menu-api/04-update-item-api.md",
+      "images": [],
+      "bytes": 7766
+    },
+    {
+      "id": 2221,
+      "title": "Batch Add Items API",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Batch Add Items API"
+      ],
+      "file": "03-grocery/04-menu-api/05-batch-add-items-api.md",
+      "images": [],
+      "bytes": 8592
+    },
+    {
+      "id": 2133,
+      "title": "Delete Multiple Items",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Delete Multiple Items"
+      ],
+      "file": "03-grocery/04-menu-api/06-delete-multiple-items.md",
+      "images": [],
+      "bytes": 1784
+    },
+    {
+      "id": 2135,
+      "title": "Batch Delete Multiple Categories",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Batch Delete Multiple Categories"
+      ],
+      "file": "03-grocery/04-menu-api/07-batch-delete-multiple-categories.md",
+      "images": [],
+      "bytes": 2520
+    },
+    {
+      "id": 2137,
+      "title": "Get Full Menu Detail",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Get Full Menu Detail"
+      ],
+      "file": "03-grocery/04-menu-api/08-get-full-menu-detail.md",
+      "images": [],
+      "bytes": 2056
+    },
+    {
+      "id": 2139,
+      "title": "Get Task Info",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Get Task Info"
+      ],
+      "file": "03-grocery/04-menu-api/09-get-task-info.md",
+      "images": [],
+      "bytes": 11014
+    },
+    {
+      "id": 2141,
+      "title": "Get Grocery Menu Upload Task Info",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Get Grocery Menu Upload Task Info"
+      ],
+      "file": "03-grocery/04-menu-api/10-get-grocery-menu-upload-task-info.md",
+      "images": [],
+      "bytes": 11485
+    },
+    {
+      "id": 2143,
+      "title": "Grocery Menu Webhooks",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Grocery Menu Webhooks"
+      ],
+      "file": "03-grocery/04-menu-api/11-grocery-menu-webhooks.md",
+      "images": [],
+      "bytes": 5200
+    },
+    {
+      "id": 2145,
+      "title": "Stock API",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Stock API"
+      ],
+      "file": "03-grocery/04-menu-api/12-stock-api.md",
+      "images": [],
+      "bytes": 4471
+    },
+    {
+      "id": 2147,
+      "title": "Upload Grocery Promo Activity",
+      "breadcrumb": [
+        "Grocery",
+        "Menu API",
+        "Upload Grocery Promo Activity"
+      ],
+      "file": "03-grocery/04-menu-api/13-upload-grocery-promo-activity.md",
+      "images": [],
+      "bytes": 9977
+    },
+    {
+      "id": 2151,
+      "title": "Order Polling",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Polling"
+      ],
+      "file": "03-grocery/05-order-api/01-order-polling.md",
+      "images": [],
+      "bytes": 2127
+    },
+    {
+      "id": 2153,
+      "title": "Acknowledgment",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Acknowledgment"
+      ],
+      "file": "03-grocery/05-order-api/02-acknowledgment.md",
+      "images": [],
+      "bytes": 1815
+    },
+    {
+      "id": 2155,
+      "title": "Order Webhooks (Recommended)",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Webhooks (Recommended)"
+      ],
+      "file": "03-grocery/05-order-api/03-order-webhooks-recommended.md",
+      "images": [],
+      "bytes": 16291
+    },
+    {
+      "id": 2157,
+      "title": "Get Order Details",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Get Order Details"
+      ],
+      "file": "03-grocery/05-order-api/04-get-order-details.md",
+      "images": [],
+      "bytes": 42619
+    },
+    {
+      "id": 2159,
+      "title": "Confirm Order",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Confirm Order"
+      ],
+      "file": "03-grocery/05-order-api/05-confirm-order.md",
+      "images": [],
+      "bytes": 1917
+    },
+    {
+      "id": 2161,
+      "title": "Order Ready",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Ready"
+      ],
+      "file": "03-grocery/05-order-api/06-order-ready.md",
+      "images": [],
+      "bytes": 962
+    },
+    {
+      "id": 2163,
+      "title": "Order Delivered",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Delivered"
+      ],
+      "file": "03-grocery/05-order-api/07-order-delivered.md",
+      "images": [],
+      "bytes": 1139
+    },
+    {
+      "id": 2165,
+      "title": "Cancel Order",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Cancel Order"
+      ],
+      "file": "03-grocery/05-order-api/08-cancel-order.md",
+      "images": [],
+      "bytes": 2275
+    },
+    {
+      "id": 2167,
+      "title": "Promotion",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Promotion"
+      ],
+      "file": "03-grocery/05-order-api/09-promotion.md",
+      "images": [],
+      "bytes": 15785
+    },
+    {
+      "id": 2169,
+      "title": "Handle Cancellation Requests",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Handle Cancellation Requests"
+      ],
+      "file": "03-grocery/05-order-api/10-handle-cancellation-requests.md",
+      "images": [],
+      "bytes": 1713
+    },
+    {
+      "id": 2171,
+      "title": "Handle Refund Requests",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Handle Refund Requests"
+      ],
+      "file": "03-grocery/05-order-api/11-handle-refund-requests.md",
+      "images": [],
+      "bytes": 2003
+    },
+    {
+      "id": 2173,
+      "title": "Order Verification",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Verification"
+      ],
+      "file": "03-grocery/05-order-api/12-order-verification.md",
+      "images": [],
+      "bytes": 3912
+    },
+    {
+      "id": 2175,
+      "title": "Confirm Cash Payment",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Confirm Cash Payment"
+      ],
+      "file": "03-grocery/05-order-api/13-confirm-cash-payment.md",
+      "images": [],
+      "bytes": 3083
+    },
+    {
+      "id": 2177,
+      "title": "Order Partial Cancel",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Order Partial Cancel"
+      ],
+      "file": "03-grocery/05-order-api/14-order-partial-cancel.md",
+      "images": [],
+      "bytes": 2971
+    },
+    {
+      "id": 2179,
+      "title": "Adjust Order Items",
+      "breadcrumb": [
+        "Grocery",
+        "Order API",
+        "Adjust Order Items"
+      ],
+      "file": "03-grocery/05-order-api/15-adjust-order-items.md",
+      "images": [],
+      "bytes": 2457
+    },
+    {
+      "id": 2183,
+      "title": "Order Dispatched",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Order Dispatched"
+      ],
+      "file": "03-grocery/06-logistics-api/01-order-dispatched.md",
+      "images": [],
+      "bytes": 2785
+    },
+    {
+      "id": 2185,
+      "title": "Order Delivered",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Order Delivered"
+      ],
+      "file": "03-grocery/06-logistics-api/02-order-delivered.md",
+      "images": [],
+      "bytes": 957
+    },
+    {
+      "id": 2187,
+      "title": "Update Courier Info",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Update Courier Info"
+      ],
+      "file": "03-grocery/06-logistics-api/03-update-courier-info.md",
+      "images": [],
+      "bytes": 2954
+    },
+    {
+      "id": 2189,
+      "title": "Update Courier Track",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Update Courier Track"
+      ],
+      "file": "03-grocery/06-logistics-api/04-update-courier-track.md",
+      "images": [],
+      "bytes": 1958
+    },
+    {
+      "id": 2191,
+      "title": "Add Delivery Area",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Add Delivery Area"
+      ],
+      "file": "03-grocery/06-logistics-api/05-add-delivery-area.md",
+      "images": [],
+      "bytes": 3398
+    },
+    {
+      "id": 2193,
+      "title": "Update Delivery Area",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Update Delivery Area"
+      ],
+      "file": "03-grocery/06-logistics-api/06-update-delivery-area.md",
+      "images": [],
+      "bytes": 3249
+    },
+    {
+      "id": 2195,
+      "title": "Delete Delivery Area",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Delete Delivery Area"
+      ],
+      "file": "03-grocery/06-logistics-api/07-delete-delivery-area.md",
+      "images": [],
+      "bytes": 1293
+    },
+    {
+      "id": 2197,
+      "title": "Get Delivery Area",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Get Delivery Area"
+      ],
+      "file": "03-grocery/06-logistics-api/08-get-delivery-area.md",
+      "images": [],
+      "bytes": 7524
+    },
+    {
+      "id": 2199,
+      "title": "Logistics Webhooks",
+      "breadcrumb": [
+        "Grocery",
+        "Logistics API",
+        "Logistics Webhooks"
+      ],
+      "file": "03-grocery/06-logistics-api/09-logistics-webhooks.md",
+      "images": [],
+      "bytes": 1374
+    },
+    {
+      "id": 2203,
+      "title": "Get Financial API Authtoken",
+      "breadcrumb": [
+        "Grocery",
+        "Financial API",
+        "Get Financial API Authtoken"
+      ],
+      "file": "03-grocery/07-financial-api/01-get-financial-api-authtoken.md",
+      "images": [],
+      "bytes": 1114
+    },
+    {
+      "id": 2205,
+      "title": "Get Bill Data",
+      "breadcrumb": [
+        "Grocery",
+        "Financial API",
+        "Get Bill Data"
+      ],
+      "file": "03-grocery/07-financial-api/02-get-bill-data.md",
+      "images": [],
+      "bytes": 15960
+    },
+    {
+      "id": 2207,
+      "title": "Get Settlements Data",
+      "breadcrumb": [
+        "Grocery",
+        "Financial API",
+        "Get Settlements Data"
+      ],
+      "file": "03-grocery/07-financial-api/03-get-settlements-data.md",
+      "images": [],
+      "bytes": 3946
+    }
+  ],
+  "imageSources": {
+    "https://img0.didiglobal.com/static/gstar/img/6MawLQmigb1636576543491.png": "69842228416d.png",
+    "https://s3-gz01.didistatic.com/packages-mait/img/0aadwjO84O1755054897625.webp": "5d54af08984b.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/d9iRuImNID1755054901267.webp": "a1c79439b8bc.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/cMaJFoirNw1755054900285.webp": "694867ab628d.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/MAqcFoQpES1755054899997.webp": "154ab71cd3b5.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/F4txmAsCL71755054901267.webp": "9263b072d918.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/lpZLceGZkf1755054902763.webp": "01416f0de9e7.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/hW1slTSC3N1755054898546.webp": "9b95662a7f99.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/KHC0GuXv7A1755054903158.webp": "29e06dab05e3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/RQfyYDmD7V1755054904592.webp": "a22c386d3104.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/FHFrvIZwBD1755054905298.webp": "e41f3bf6d8a3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/tUKgeSNJXX1755054907607.webp": "778d1fcb3e01.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/uTJfz7UUmj1755054908044.webp": "156731e4cb99.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/eMxhDFZkBS1755054909673.webp": "bba062a93fc9.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/1TmD5oIWfA1755054906315.webp": "d360f30b419b.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/ig1IjSu5h91755054910133.webp": "04847f6fbdb5.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/Hp7BhxnURC1755054924446.webp": "0f029b41aede.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/F06eopvBV71755054911488.webp": "75ce3ff69131.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/iKBb76s9BF1755054918532.webp": "ca970ef1eb4d.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/luqoZxCBkP1755054913231.webp": "42b5da18750a.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/EUHSpPIBgH1755054914476.webp": "9375ac158dc2.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/GZp0Yz9ZEh1755054917015.webp": "433f963dbefd.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/JgAmAAQEQF1755054915554.webp": "e0809dad48b3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/b2bNBhtvLw1755054918544.webp": "db0e905bcbf2.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/kJ6fj7b06u1755054920359.webp": "aeba9f975fa7.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/JK5ygpZDeR1755054919901.webp": "69eb536c793f.webp",
+    "https://img0.didiglobal.com/static/gstar/img/jIVDJlsFGp1636544967637.png": "ab8d8a23e30d.png",
+    "https://s3-gz01.didistatic.com/packages-mait/img/3PJ9AEIJSn1755054925360.webp": "cea51ddcf8a2.webp",
+    "https://pt-starimg.didistatic.com/static/starimg/img/1Yz59RuJDT1625873949766.png": "0dffc9d72c28.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/xbCKGqer6j1648641253628.png": "8f60350bf0fc.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/Nb0zs84GHP1648641431035.png": "b053b8ea7ea8.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/dJQEilnnRE1648641462062.png": "279f0ff1d405.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/hItbWQHaOK1648641446712.png": "6ed438154c35.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/Gl70l6H7hR1648641037642.jpeg": "9ec485419e43.jpeg",
+    "https://s3-us01.didiglobal.com/silver-bullet-img/2023-03-29/OZAwff/image2023-2-23_17-49-28.png": "4cf393fa93cc.png"
+  },
+  "attachments": {
+    "https://img0.didiglobal.com/static/starfile/node20211005/895f1e95e30aba5dd56d6f2ccf768b57/TQaxEpW60g1633444119209.zip": "attachments/cb397215dd",
+    "https://img0.didiglobal.com/static/starfile/node20211005/895f1e95e30aba5dd56d6f2ccf768b57/0EohTTjMEA1633365375708.zip": "attachments/7edbf0930f",
+    "https://pt-starfile.didistatic.com/static/starfile/node20220401/895f1e95e30aba5dd56d6f2ccf768b57/byByYcdboT1648799123452.zip": "attachments/37844c7534",
+    "https://img0.didiglobal.com/static/soda_public/openplatform_f4b4902f36d8d76a1ea1a8f36ad369b7.zip": "attachments/501858a996"
+  },
+  "failedImages": [
+    {
+      "url": "https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip",
+      "erro": "fetch failed"
+    },
+    {
+      "url": "https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip",
+      "erro": "fetch failed"
+    }
+  ]
+}

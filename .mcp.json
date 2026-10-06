@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "99food": {
+      "command": "node",
+      "args": ["/home/hora/Documentos/mcp-99food/dist/index.js"]
+    }
+  }
+}
