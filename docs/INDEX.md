@@ -1,8 +1,8 @@
 # Documentação 99Food Open Platform — índice
 
-Fonte: <https://developer-food.99app.com/pt-BR/openapi> · idioma `pt-BR` · coletado em 2026-10-06T13:42:50.150Z
+Fonte: <https://developer-food.99app.com/pt-BR/openapi> · idioma `pt-BR` · coletado em 2026-10-06T14:18:28.522Z
 
-144 páginas · 35 imagens · 4 anexos
+144 páginas · 35 imagens · 5 anexos
 
 ## Common
 
@@ -236,7 +236,4 @@ Fonte: <https://developer-food.99app.com/pt-BR/openapi> · idioma `pt-BR` · col
 - [`attachments/7edbf0930f/`](attachments/7edbf0930f/) ← https://img0.didiglobal.com/static/starfile/node20211005/895f1e95e30aba5dd56d6f2ccf768b57/0EohTTjMEA1633365375708.zip
 - [`attachments/37844c7534/`](attachments/37844c7534/) ← https://pt-starfile.didistatic.com/static/starfile/node20220401/895f1e95e30aba5dd56d6f2ccf768b57/byByYcdboT1648799123452.zip
 - [`attachments/501858a996/`](attachments/501858a996/) ← https://img0.didiglobal.com/static/soda_public/openplatform_f4b4902f36d8d76a1ea1a8f36ad369b7.zip
-
-## Não baixados
-
-- https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip (fetch failed)
+- [`attachments/f4b457f5ea/`](attachments/f4b457f5ea/) ← https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip

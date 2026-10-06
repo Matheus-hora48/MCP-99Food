@@ -2,7 +2,7 @@
 
 Servidor MCP (stdio) com a documentação completa da **99Food Open Platform**
 (<https://developer-food.99app.com/pt-BR/openapi>): 144 páginas em markdown,
-35 imagens, os specs OpenAPI oficiais e os tutoriais em PDF. Tudo fica
+35 imagens, os specs OpenAPI oficiais e os tutoriais em PDF (5 anexos). Tudo fica
 versionado em `docs/`, então o servidor funciona offline.
 
 ## Tools
@@ -35,7 +35,7 @@ claude mcp add 99food -- node /home/hora/Documentos/mcp-99food/dist/index.js
 - `INDEX.md`: índice navegável da documentação, com contagem de imagens por página.
 - `01-common/`, `02-food/`, `03-grocery/`: markdowns na mesma hierarquia do portal.
 - `images/`: imagens, referenciadas nos markdowns por caminho relativo.
-- `attachments/`: zips da doc já extraídos (`swagger.yaml` = 99Food, `99Compras.yaml` = Grocery, PDFs de tutorial).
+- `attachments/`: zips da doc já extraídos (`swagger.yaml` = 99Food, `99Compras.yaml` = Grocery, PDFs de tutorial e o guia de promoções).
 - `index.json`: árvore original, metadados, mapa URL→arquivo de cada imagem e falhas.
 
 ## Atualizando a documentação
@@ -53,4 +53,3 @@ e chama a API de dentro dele.
 ## Limitações conhecidas
 
 - O texto das páginas vem em inglês mesmo com `pt-BR`; o portal só traduz o menu/UI.
-- Um zip de tutorial (`img0.99foodglobal.com/...aXwGURTRUs...zip`) não baixa: o host não resolve. Está listado em `docs/INDEX.md`.

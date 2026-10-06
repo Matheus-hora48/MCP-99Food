@@ -146,14 +146,25 @@ async function main() {
       const url = m[2];
       if (attMap.has(url)) continue;
       try {
-        const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(120000) });
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        // img0.99foodglobal.com não resolve; o mesmo caminho existe em img0.didiglobal.com.
+        const candidates = [url, url.replace('//img0.99foodglobal.com/', '//img0.didiglobal.com/')];
+        let r;
+        for (const u of new Set(candidates)) {
+          try {
+            r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(120000) });
+            if (r.ok) break;
+          } catch {
+            r = undefined;
+          }
+        }
+        if (!r?.ok) throw new Error(r ? `HTTP ${r.status}` : 'fetch failed');
         const name = createHash('sha1').update(url).digest('hex').slice(0, 10);
         const zipPath = path.join(ATT_DIR, `${name}.zip`);
         await writeFile(zipPath, Buffer.from(await r.arrayBuffer()));
         const dest = path.join(ATT_DIR, name);
         await mkdir(dest, { recursive: true });
-        execFileSync('unzip', ['-q', '-o', zipPath, '-x', '__MACOSX/*', '-d', dest]);
+        // nomes sem flag UTF-8 vêm em cp850 (PDFs em português)
+        execFileSync('unzip', ['-q', '-o', '-O', 'cp850', zipPath, '-x', '__MACOSX/*', '-d', dest]);
         attMap.set(url, `attachments/${name}`);
         console.log(`  anexo ${m[1] || url} -> attachments/${name}`);
       } catch (e) {

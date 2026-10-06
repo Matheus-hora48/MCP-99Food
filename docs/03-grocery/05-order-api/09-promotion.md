@@ -18,7 +18,7 @@ You can create a promotion in your testing store directly in 99food Store to ens
 
 ### Resources:
 
-Stores and integrators can understand a little more about the promotion information [downloading this guide](https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip).
+Stores and integrators can understand a little more about the promotion information [downloading this guide](../../attachments/f4b457f5ea/).
 
 
 ### Types of Promotions Supported

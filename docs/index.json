@@ -1,7 +1,7 @@
 {
   "source": "https://developer-food.99app.com/pt-BR/openapi",
   "lang": "pt-BR",
-  "crawledAt": "2026-10-06T13:42:50.150Z",
+  "crawledAt": "2026-10-06T14:18:28.522Z",
   "tree": {
     "left_list": [
       {
@@ -2089,7 +2089,7 @@
       ],
       "file": "02-food/01-99food-protocol-recommended/05-order-api/07-promotion.md",
       "images": [],
-      "bytes": 15785
+      "bytes": 15698
     },
     {
       "id": 1995,
@@ -3061,7 +3061,7 @@
       ],
       "file": "03-grocery/05-order-api/09-promotion.md",
       "images": [],
-      "bytes": 15785
+      "bytes": 15695
     },
     {
       "id": 2169,
@@ -3282,55 +3282,47 @@
   ],
   "imageSources": {
     "https://img0.didiglobal.com/static/gstar/img/6MawLQmigb1636576543491.png": "69842228416d.png",
-    "https://s3-gz01.didistatic.com/packages-mait/img/0aadwjO84O1755054897625.webp": "5d54af08984b.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/d9iRuImNID1755054901267.webp": "a1c79439b8bc.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/cMaJFoirNw1755054900285.webp": "694867ab628d.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/MAqcFoQpES1755054899997.webp": "154ab71cd3b5.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/F4txmAsCL71755054901267.webp": "9263b072d918.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/lpZLceGZkf1755054902763.webp": "01416f0de9e7.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/0aadwjO84O1755054897625.webp": "5d54af08984b.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/hW1slTSC3N1755054898546.webp": "9b95662a7f99.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/KHC0GuXv7A1755054903158.webp": "29e06dab05e3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/lpZLceGZkf1755054902763.webp": "01416f0de9e7.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/cMaJFoirNw1755054900285.webp": "694867ab628d.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/RQfyYDmD7V1755054904592.webp": "a22c386d3104.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/FHFrvIZwBD1755054905298.webp": "e41f3bf6d8a3.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/tUKgeSNJXX1755054907607.webp": "778d1fcb3e01.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/uTJfz7UUmj1755054908044.webp": "156731e4cb99.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/eMxhDFZkBS1755054909673.webp": "bba062a93fc9.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/1TmD5oIWfA1755054906315.webp": "d360f30b419b.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/ig1IjSu5h91755054910133.webp": "04847f6fbdb5.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/tUKgeSNJXX1755054907607.webp": "778d1fcb3e01.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/FHFrvIZwBD1755054905298.webp": "e41f3bf6d8a3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/eMxhDFZkBS1755054909673.webp": "bba062a93fc9.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/uTJfz7UUmj1755054908044.webp": "156731e4cb99.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/Hp7BhxnURC1755054924446.webp": "0f029b41aede.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/F06eopvBV71755054911488.webp": "75ce3ff69131.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/ig1IjSu5h91755054910133.webp": "04847f6fbdb5.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/iKBb76s9BF1755054918532.webp": "ca970ef1eb4d.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/luqoZxCBkP1755054913231.webp": "42b5da18750a.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/F06eopvBV71755054911488.webp": "75ce3ff69131.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/EUHSpPIBgH1755054914476.webp": "9375ac158dc2.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/GZp0Yz9ZEh1755054917015.webp": "433f963dbefd.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/JgAmAAQEQF1755054915554.webp": "e0809dad48b3.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/GZp0Yz9ZEh1755054917015.webp": "433f963dbefd.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/b2bNBhtvLw1755054918544.webp": "db0e905bcbf2.webp",
-    "https://s3-gz01.didistatic.com/packages-mait/img/kJ6fj7b06u1755054920359.webp": "aeba9f975fa7.webp",
     "https://s3-gz01.didistatic.com/packages-mait/img/JK5ygpZDeR1755054919901.webp": "69eb536c793f.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/kJ6fj7b06u1755054920359.webp": "aeba9f975fa7.webp",
     "https://img0.didiglobal.com/static/gstar/img/jIVDJlsFGp1636544967637.png": "ab8d8a23e30d.png",
-    "https://s3-gz01.didistatic.com/packages-mait/img/3PJ9AEIJSn1755054925360.webp": "cea51ddcf8a2.webp",
+    "https://s3-gz01.didistatic.com/packages-mait/img/MAqcFoQpES1755054899997.webp": "154ab71cd3b5.webp",
     "https://pt-starimg.didistatic.com/static/starimg/img/1Yz59RuJDT1625873949766.png": "0dffc9d72c28.png",
-    "https://pt-starimg.didistatic.com/static/starimg/img/xbCKGqer6j1648641253628.png": "8f60350bf0fc.png",
+    "https://pt-starimg.didistatic.com/static/starimg/img/hItbWQHaOK1648641446712.png": "6ed438154c35.png",
     "https://pt-starimg.didistatic.com/static/starimg/img/Nb0zs84GHP1648641431035.png": "b053b8ea7ea8.png",
     "https://pt-starimg.didistatic.com/static/starimg/img/dJQEilnnRE1648641462062.png": "279f0ff1d405.png",
-    "https://pt-starimg.didistatic.com/static/starimg/img/hItbWQHaOK1648641446712.png": "6ed438154c35.png",
     "https://pt-starimg.didistatic.com/static/starimg/img/Gl70l6H7hR1648641037642.jpeg": "9ec485419e43.jpeg",
-    "https://s3-us01.didiglobal.com/silver-bullet-img/2023-03-29/OZAwff/image2023-2-23_17-49-28.png": "4cf393fa93cc.png"
+    "https://pt-starimg.didistatic.com/static/starimg/img/xbCKGqer6j1648641253628.png": "8f60350bf0fc.png",
+    "https://s3-us01.didiglobal.com/silver-bullet-img/2023-03-29/OZAwff/image2023-2-23_17-49-28.png": "4cf393fa93cc.png",
+    "https://s3-gz01.didistatic.com/packages-mait/img/3PJ9AEIJSn1755054925360.webp": "cea51ddcf8a2.webp"
   },
   "attachments": {
     "https://img0.didiglobal.com/static/starfile/node20211005/895f1e95e30aba5dd56d6f2ccf768b57/TQaxEpW60g1633444119209.zip": "attachments/cb397215dd",
     "https://img0.didiglobal.com/static/starfile/node20211005/895f1e95e30aba5dd56d6f2ccf768b57/0EohTTjMEA1633365375708.zip": "attachments/7edbf0930f",
     "https://pt-starfile.didistatic.com/static/starfile/node20220401/895f1e95e30aba5dd56d6f2ccf768b57/byByYcdboT1648799123452.zip": "attachments/37844c7534",
-    "https://img0.didiglobal.com/static/soda_public/openplatform_f4b4902f36d8d76a1ea1a8f36ad369b7.zip": "attachments/501858a996"
+    "https://img0.didiglobal.com/static/soda_public/openplatform_f4b4902f36d8d76a1ea1a8f36ad369b7.zip": "attachments/501858a996",
+    "https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip": "attachments/f4b457f5ea"
   },
-  "failedImages": [
-    {
-      "url": "https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip",
-      "erro": "fetch failed"
-    },
-    {
-      "url": "https://img0.99foodglobal.com/static/starfile/node20220507/895f1e95e30aba5dd56d6f2ccf768b57/aXwGURTRUs1651858294227.zip",
-      "erro": "fetch failed"
-    }
-  ]
+  "failedImages": []
 }
