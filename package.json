@@ -9,6 +9,7 @@
   "scripts": {
     "crawl": "node scripts/crawl-docs.mjs",
     "build": "tsc",
+    "prepare": "tsc",
     "start": "node dist/index.js",
     "dev": "tsx src/index.ts"
   },
@@ -26,5 +27,9 @@
     "playwright-core": "^1.63.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
-  }
+  },
+  "files": [
+    "dist",
+    "docs"
+  ]
 }

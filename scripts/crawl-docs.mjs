@@ -5,7 +5,7 @@
 //
 // Uso: npm run crawl [-- --lang pt-BR] [--chrome /caminho/do/chrome]
 import { chromium } from 'playwright-core';
-import { mkdir, writeFile, rm } from 'node:fs/promises';
+import { mkdir, writeFile, rm, rename } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
@@ -21,7 +21,9 @@ const LANG = opt('lang', 'pt-BR');
 const CHROME = opt('chrome', process.env.CHROME_PATH || '/usr/bin/google-chrome-stable');
 const SITE = 'https://developer-food.99app.com';
 const API = 'https://openplatform-portal-food.99app.com/docs/v1/node';
-const OUT = path.join(ROOT, 'docs');
+const FINAL = path.join(ROOT, 'docs');
+// Tudo é gravado numa pasta temporária e só substitui docs/ se a coleta terminar.
+const OUT = path.join(ROOT, 'docs.tmp');
 const IMG_DIR = path.join(OUT, 'images');
 const ATT_DIR = path.join(OUT, 'attachments');
 
@@ -71,6 +73,7 @@ async function main() {
 
   await rm(OUT, { recursive: true, force: true });
   await mkdir(IMG_DIR, { recursive: true });
+  const pageErrors = [];
 
   const imageMap = new Map(); // url remota -> arquivo local
   const pages = [];
@@ -84,6 +87,7 @@ async function main() {
     }
     if (resp.errno) {
       console.error(`  [erro] ${leaf.id} ${leaf.title}: ${JSON.stringify(resp)}`);
+      pageErrors.push(leaf);
       continue;
     }
     const md = Buffer.from(resp.data.md_text ?? '', 'base64').toString('utf8');
@@ -165,6 +169,7 @@ async function main() {
         await mkdir(dest, { recursive: true });
         // nomes sem flag UTF-8 vêm em cp850 (PDFs em português)
         execFileSync('unzip', ['-q', '-o', '-O', 'cp850', zipPath, '-x', '__MACOSX/*', '-d', dest]);
+        await rm(zipPath); // só o conteúdo extraído fica versionado
         attMap.set(url, `attachments/${name}`);
         console.log(`  anexo ${m[1] || url} -> attachments/${name}`);
       } catch (e) {
@@ -202,6 +207,11 @@ async function main() {
     ),
   );
 
+  if (pageErrors.length) {
+    throw new Error(`${pageErrors.length} página(s) falharam; docs/ não foi alterado (parcial em ${OUT})`);
+  }
+  await rm(FINAL, { recursive: true, force: true });
+  await rename(OUT, FINAL);
   execFileSync('node', [path.join(ROOT, 'scripts', 'build-index.mjs')], { stdio: 'inherit' });
   console.log(`\nOK: ${index.length} páginas, ${imageMap.size} imagens, ${attMap.size} anexos, ${failed.length} falhas de imagem`);
   for (const f of failed) console.log(`  falhou: ${f.url} (${f.erro})`);
