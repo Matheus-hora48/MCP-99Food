@@ -10,16 +10,23 @@ versionado em `docs/`, então o servidor funciona offline.
 | Tool | O que faz |
 | --- | --- |
 | `list_docs` | Lista as páginas (id, caminho, nº de imagens); aceita `filter` |
-| `get_doc` | Markdown completo por `id` ou `path`; `include_images=true` anexa as imagens |
-| `search_docs` | Busca por palavras em títulos e corpo, com trechos |
+| `get_doc` | Markdown por `id` ou `path`; `outline=true` mostra só os headings, `section` traz só um trecho; `include_images=true` anexa as imagens |
+| `search_docs` | Busca em títulos e corpo, sem diferenciar acentos, com `"frase exata"` e `scope` (ex.: `grocery`); mostra a seção onde achou |
+| `list_webhooks` | Eventos de webhook (`orderNew`, `orderCancel`, `deliveryStatus`…) por protocolo; com `event`, devolve a seção com o payload |
+| `lookup_code` | Códigos das tabelas: errno, motivos de cancelamento (`1010`…), status de pedido (`100`…`600`, `9xx`) |
 | `list_images` / `get_image` | Lista e devolve as imagens (diagramas, prints do portal) |
 | `get_openapi_spec` | Lista endpoints dos specs YAML ou devolve a operação de um endpoint, com os `$ref` de `components` expandidos |
+
+Também expõe:
+
+- **Resources**: cada página como `food99://doc/{id}`.
+- **Prompt `roteiro_integracao`** (`protocolo`: food | grocery | open-delivery; `tema`: pedidos | cardapio | loja | financeiro): monta o roteiro de leitura (guia da API, páginas do módulo, webhooks, spec, códigos) antes de escrever código.
 
 ## Uso
 
 ```bash
-npm install
-npm run build
+npm install      # o prepare já compila
+npm test         # compila e roda os testes de ponta a ponta (cliente MCP via stdio)
 ```
 
 Abrindo o Claude Code nesta pasta, o `.mcp.json` já registra o servidor (`node dist/index.js`).
