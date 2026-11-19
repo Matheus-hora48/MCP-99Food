@@ -13,7 +13,7 @@ versionado em `docs/`, então o servidor funciona offline.
 | `get_doc` | Markdown completo por `id` ou `path`; `include_images=true` anexa as imagens |
 | `search_docs` | Busca por palavras em títulos e corpo, com trechos |
 | `list_images` / `get_image` | Lista e devolve as imagens (diagramas, prints do portal) |
-| `get_openapi_spec` | Lista endpoints dos specs YAML ou devolve a operação de um endpoint |
+| `get_openapi_spec` | Lista endpoints dos specs YAML ou devolve a operação de um endpoint, com os `$ref` de `components` expandidos |
 
 ## Uso
 
@@ -22,10 +22,18 @@ npm install
 npm run build
 ```
 
-Registro no Claude Code (já há um `.mcp.json` neste diretório):
+Abrindo o Claude Code nesta pasta, o `.mcp.json` já registra o servidor (`node dist/index.js`).
+
+Para usar em outro projeto, sem clonar (o `prepare` compila na instalação):
 
 ```bash
-claude mcp add 99food -- node /home/hora/Documentos/mcp-99food/dist/index.js
+claude mcp add 99food -- npx -y github:Matheus-hora48/MCP-99Food
+```
+
+Ou apontando para um clone local:
+
+```bash
+claude mcp add 99food -- node /caminho/do/MCP-99Food/dist/index.js
 ```
 
 `MCP_99FOOD_DOCS` permite apontar para outra pasta de docs.
@@ -35,7 +43,7 @@ claude mcp add 99food -- node /home/hora/Documentos/mcp-99food/dist/index.js
 - `INDEX.md`: índice navegável da documentação, com contagem de imagens por página.
 - `01-common/`, `02-food/`, `03-grocery/`: markdowns na mesma hierarquia do portal.
 - `images/`: imagens, referenciadas nos markdowns por caminho relativo.
-- `attachments/`: zips da doc já extraídos (`swagger.yaml` = 99Food, `99Compras.yaml` = Grocery, PDFs de tutorial e o guia de promoções).
+- `attachments/`: conteúdo dos zips da doc, já extraído (`swagger.yaml` = 99Food, `99Compras.yaml` = Grocery, PDFs de tutorial e o guia de promoções).
 - `index.json`: árvore original, metadados, mapa URL→arquivo de cada imagem e falhas.
 
 ## Atualizando a documentação
@@ -48,7 +56,8 @@ npm run crawl -- --lang en
 A API de docs do portal (`openplatform-portal-food.99app.com/docs/v1/node/*`) exige
 uma assinatura `wsgsig` gerada pelo JS da própria página, então o crawler abre o
 portal num Chrome headless (`/usr/bin/google-chrome-stable`, ou `--chrome`/`CHROME_PATH`)
-e chama a API de dentro dele.
+e chama a API de dentro dele. A coleta grava em `docs.tmp/` e só substitui `docs/`
+se todas as páginas vierem; se alguma falhar, `docs/` fica intacto.
 
 ## Limitações conhecidas
 
