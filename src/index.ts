@@ -7,7 +7,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
 
-const DOCS = process.env.MCP_99FOOD_DOCS ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'docs');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const DOCS = process.env.MCP_99FOOD_DOCS ?? path.join(ROOT, 'docs');
+const { version: VERSION } = JSON.parse(await readFile(path.join(ROOT, 'package.json'), 'utf8')) as { version: string };
 
 interface PageMeta {
   id: number;
@@ -70,7 +72,7 @@ function resolvePage(id?: number, p?: string): PageMeta | undefined {
   return undefined;
 }
 
-const server = new McpServer({ name: 'mcp-99food', version: '0.1.0' });
+const server = new McpServer({ name: 'mcp-99food', version: VERSION });
 
 server.registerTool(
   'list_docs',
@@ -204,21 +206,70 @@ async function findSpecs(): Promise<Map<string, string>> {
 const specs = await findSpecs();
 const specNames = [...specs.keys()];
 
+type Json = unknown;
+interface OpenApiDoc {
+  paths?: Record<string, Record<string, { summary?: string }>>;
+  [k: string]: Json;
+}
+const parsedSpecs = new Map<string, OpenApiDoc>();
+async function loadSpec(file: string): Promise<OpenApiDoc> {
+  let doc = parsedSpecs.get(file);
+  if (!doc) {
+    doc = YAML.parse(await readFile(file, 'utf8')) as OpenApiDoc;
+    parsedSpecs.set(file, doc);
+  }
+  return doc;
+}
+
+/** Segue um JSON Pointer local (#/components/schemas/X). */
+function pointer(doc: OpenApiDoc, ref: string): Json | undefined {
+  if (!ref.startsWith('#/')) return undefined;
+  let cur: Json = doc;
+  for (const raw of ref.slice(2).split('/')) {
+    const key = raw.replace(/~1/g, '/').replace(/~0/g, '~');
+    if (cur === null || typeof cur !== 'object') return undefined;
+    cur = (cur as Record<string, Json>)[key];
+  }
+  return cur;
+}
+
+/**
+ * Substitui cada {$ref} local pelo conteúdo referenciado. Referências cíclicas
+ * (schema que contém a si mesmo) ficam como {$ref, circular: true}.
+ */
+function resolveRefs(doc: OpenApiDoc, node: Json, stack: string[] = []): Json {
+  if (Array.isArray(node)) return node.map((n) => resolveRefs(doc, n, stack));
+  if (node === null || typeof node !== 'object') return node;
+  const obj = node as Record<string, Json>;
+  if (typeof obj.$ref === 'string') {
+    const ref = obj.$ref;
+    if (stack.includes(ref)) return { $ref: ref, circular: true };
+    const target = pointer(doc, ref);
+    if (target === undefined) return { $ref: ref, unresolved: true };
+    const { $ref: _ignored, ...siblings } = obj;
+    const resolved = resolveRefs(doc, target, [...stack, ref]);
+    return resolved && typeof resolved === 'object' && !Array.isArray(resolved) ? { ...(resolved as object), ...siblings } : resolved;
+  }
+  return Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, resolveRefs(doc, v, stack)]));
+}
+
 server.registerTool(
   'get_openapi_spec',
   {
     description:
       `Specs OpenAPI oficiais baixados da doc (disponíveis: ${specNames.join(', ') || 'nenhum'}; "swagger" = 99Food, "99compras" = Grocery). ` +
-      'Sem "endpoint": lista os endpoints (método + path + resumo). Com "endpoint" (trecho do path): devolve o YAML daquela operação.',
+      'Sem "endpoint": lista os endpoints (método + path + resumo). Com "endpoint" (trecho do path): devolve o YAML daquela operação ' +
+      'com os $ref de components já expandidos (desligue com resolve_refs=false).',
     inputSchema: {
       spec: z.string().describe('Nome do spec (ex.: swagger, 99compras)'),
       endpoint: z.string().optional().describe('Trecho do path, ex.: /v1/order/order/detail'),
+      resolve_refs: z.boolean().default(true).describe('Expandir $ref (#/components/...) no YAML devolvido'),
     },
   },
-  async ({ spec, endpoint }) => {
+  async ({ spec, endpoint, resolve_refs }) => {
     const file = specs.get(spec.toLowerCase());
     if (!file) return fail(`Spec "${spec}" não encontrado. Disponíveis: ${specNames.join(', ')}`);
-    const doc = YAML.parse(await readFile(file, 'utf8')) as { paths?: Record<string, Record<string, { summary?: string }>> };
+    const doc = await loadSpec(file);
     const paths = doc.paths ?? {};
     if (!endpoint) {
       const lines = Object.entries(paths).flatMap(([p, ops]) =>
@@ -228,7 +279,7 @@ server.registerTool(
     }
     const hits = Object.entries(paths).filter(([p]) => p.toLowerCase().includes(endpoint.toLowerCase()));
     if (!hits.length) return fail(`Nenhum path contém "${endpoint}".`);
-    return text(hits.map(([p, ops]) => YAML.stringify({ [p]: ops })).join('\n---\n'));
+    return text(hits.map(([p, ops]) => YAML.stringify({ [p]: resolve_refs ? resolveRefs(doc, ops) : ops })).join('\n---\n'));
   },
 );
 
